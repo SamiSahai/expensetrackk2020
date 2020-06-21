@@ -41,4 +41,4 @@ jobs:
     - name: Installing Surge
       run: npm install -g surge
     - name: Deploy to surge
-      run: surge ./build exptrackk2020.surge.sh --token ${{secrets.REACTAPP_TOKEN}}  
+      run: surge ./build exptrackk2020.surge.sh --token ${{ secrets.EXP_TRACKK }}  
